@@ -2,6 +2,15 @@
 
 This project uses the Bloc State Management tool for scalability and separation of concerns.
 
+### Features
+   ### BLoC State Management for predictable state handling
+
+   ### Firebase Authentication for user login/signup
+    
+   ### Mock Restaurant Data stored locally for now
+    
+   ### Scalable Architecture with separate UI, business logic, and data layers
+
 ### Bloc Architecture Overview:
 
     1) UI Layer:
@@ -42,7 +51,7 @@ cd your-repo-name
 ### Run instruction
   - flutter pub get
   - flutter run
-  - flutter build apk -release (If u want release version)
+  - flutter build apk -release (If u want the release version)
 
 ### Data Flow
             ┌───────────────────┐
