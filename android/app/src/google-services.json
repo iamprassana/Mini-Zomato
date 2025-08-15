@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "247944308527",
+    "project_id": "minizomato-6b854",
+    "storage_bucket": "minizomato-6b854.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247944308527:android:42c0bb8f122e3dbcea63da",
+        "android_client_info": {
+          "package_name": "com.example.mini_zomato"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN9apj0CA8P8k67Jot56RJwmwA0cSqI_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
