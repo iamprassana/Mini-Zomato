@@ -45,27 +45,27 @@ cd your-repo-name
   - flutter build apk -release (If u want release version)
 
 
-          ┌───────────────────┐
-          │       UI Layer     │
-          │ (Flutter Widgets)  │
-          └─────────┬─────────┘
-                    │ User Events
-                    ▼
-           ┌───────────────────┐
-           │       BLoC         │
-           │ (Business Logic)   │
-           └─────────┬─────────┘
-                    │ Emits States
-                    ▼
-          ┌───────────────────┐
-          │   Repository       │
-          │ (Data Handling)    │
-          └─────────┬─────────┘
-                    │ API/DB Calls
-                    ▼
-        ┌────────────────────────────┐
-        │ Data Sources (API/Firebase)│
-        └────────────────────────────┘
+    ┌───────────────────┐
+    │       UI Layer    │
+    │ (Flutter Widgets) │
+    └─────────┬─────────┘
+              │ User Events
+              ▼
+    ┌───────────────────┐
+    │       BLoC        │
+    │ (Business Logic)  │
+    └─────────┬─────────┘
+              │ Emits States
+              ▼
+    ───────────────────┐
+    │   Repository     │
+    │ (Data Handling)  │
+    └─────────┬─────────┘
+              │ API/DB Calls
+              ▼
+    ┌────────────────────────────┐
+    │ Data Sources (API/Firebase)│
+    └────────────────────────────┘
 
 
 
